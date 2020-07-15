@@ -31,6 +31,7 @@ class LoginForm extends React.Component {
     if(this.state.username !== "" && this.state.password !== ""){
       this.props.handleLogin(this.state)
     }
+    //if (!this.state.username || !this.state.password) return
     
   }
 
